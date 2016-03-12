@@ -49,8 +49,9 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\..\..\..\Storm\Storm\Storm\bin\Debug\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="StormLoader">
-      <HintPath>..\..\..\..\..\Storm\Storm\Storm\bin\Debug\StormLoader.exe</HintPath>
+    <Reference Include="StormLoader, Version=0.1.1.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\NewStorm\Storm\Storm\Storm\bin\Debug\StormLoader.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,6 +61,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="xTile, Version=2.0.4.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Storm\Storm\Storm\bin\Debug\xTile.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChestLabels.cs" />
